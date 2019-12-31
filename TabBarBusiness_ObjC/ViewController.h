@@ -10,6 +10,20 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIButton *servicesButton;
+@property (weak, nonatomic) IBOutlet UIButton *portfolioButton;
+@property (weak, nonatomic) IBOutlet UIButton *aboutUsButton;
+@property (weak, nonatomic) IBOutlet UIButton *contactUsButton;
+@property (weak, nonatomic) IBOutlet UIButton *socialLinksButton;
+
+
+
+
+- (IBAction)servicesPressed:(id)sender;
+- (IBAction)portfolioPressed:(id)sender;
+- (IBAction)aboutUsPressed:(id)sender;
+- (IBAction)contactUsPressed:(id)sender;
+- (IBAction)socialLinksPressed:(id)sender;
 
 @end
 

@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4043954D23B0909900448811 /* ServicesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4043954C23B0909900448811 /* ServicesTableViewController.m */; };
+		4043955323B090DA00448811 /* ServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4043955223B090DA00448811 /* ServicesViewController.m */; };
+		4043955923B098A800448811 /* ServicesTableViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 4043955623B0978E00448811 /* ServicesTableViewCell.h */; };
+		4043955A23B098B000448811 /* ServicesTableViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 4043954B23B0909900448811 /* ServicesTableViewController.h */; };
+		4043955B23B098B000448811 /* ServicesViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 4043955123B090DA00448811 /* ServicesViewController.h */; };
+		4043955C23B098B000448811 /* ServicesList.plist in Sources */ = {isa = PBXBuildFile; fileRef = 4043955423B0915800448811 /* ServicesList.plist */; };
+		4043955D23B098DF00448811 /* ServicesTableViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 4043954B23B0909900448811 /* ServicesTableViewController.h */; };
+		4043955E23B098DF00448811 /* ServicesTableViewController.m in Resources */ = {isa = PBXBuildFile; fileRef = 4043954C23B0909900448811 /* ServicesTableViewController.m */; };
+		4043955F23B098DF00448811 /* ServicesViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 4043955123B090DA00448811 /* ServicesViewController.h */; };
+		4043956023B098DF00448811 /* ServicesViewController.m in Resources */ = {isa = PBXBuildFile; fileRef = 4043955223B090DA00448811 /* ServicesViewController.m */; };
+		4043956123B098DF00448811 /* ServicesTableViewCell.h in Resources */ = {isa = PBXBuildFile; fileRef = 4043955623B0978E00448811 /* ServicesTableViewCell.h */; };
+		4043956623B0B5FB00448811 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4043956523B0B5FB00448811 /* AboutUsViewController.m */; };
+		4043956A23B0B8FF00448811 /* PortfolioCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4043956923B0B8FF00448811 /* PortfolioCollectionViewController.m */; };
+		4043956D23B0B97500448811 /* PortfolioCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4043956C23B0B97500448811 /* PortfolioCollectionViewCell.m */; };
+		4043957123B0C69900448811 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4043957023B0C69900448811 /* ContactViewController.m */; };
+		4043957423B0C76000448811 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4043957323B0C76000448811 /* MapKit.framework */; };
+		4043957723B0CA7800448811 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 4043957623B0CA7800448811 /* MapPin.m */; };
+		4055924123B9CCF5006DD6E3 /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4055924023B9CCF5006DD6E3 /* EmailViewController.m */; };
+		4055924323B9D390006DD6E3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4055924223B9D390006DD6E3 /* MessageUI.framework */; };
+		4055924523B9D3C0006DD6E3 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4055924423B9D3C0006DD6E3 /* Accounts.framework */; };
+		4055924923B9EB35006DD6E3 /* SocialTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4055924823B9EB35006DD6E3 /* SocialTableViewController.m */; };
+		4055924C23B9EBEB006DD6E3 /* SocialTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4055924B23B9EBEB006DD6E3 /* SocialTableViewCell.m */; };
+		4055924E23B9EC5E006DD6E3 /* Social.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4055924D23B9EC5E006DD6E3 /* Social.plist */; };
+		40BBFD7523BB56A700F9468E /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BBFD7423BB56A700F9468E /* WebViewController.m */; };
+		40BBFD7723BB57DA00F9468E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BBFD7623BB57DA00F9468E /* WebKit.framework */; };
 		40C6449E23A7AA3200DAC09E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C6449D23A7AA3200DAC09E /* AppDelegate.m */; };
 		40C644A123A7AA3200DAC09E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C644A023A7AA3200DAC09E /* SceneDelegate.m */; };
 		40C644A423A7AA3200DAC09E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C644A323A7AA3200DAC09E /* ViewController.m */; };
@@ -36,6 +61,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4043954B23B0909900448811 /* ServicesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesTableViewController.h; sourceTree = "<group>"; };
+		4043954C23B0909900448811 /* ServicesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServicesTableViewController.m; sourceTree = "<group>"; };
+		4043955123B090DA00448811 /* ServicesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesViewController.h; sourceTree = "<group>"; };
+		4043955223B090DA00448811 /* ServicesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServicesViewController.m; sourceTree = "<group>"; };
+		4043955423B0915800448811 /* ServicesList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ServicesList.plist; sourceTree = "<group>"; };
+		4043955623B0978E00448811 /* ServicesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServicesTableViewCell.h; sourceTree = "<group>"; };
+		4043956423B0B5FB00448811 /* AboutUsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		4043956523B0B5FB00448811 /* AboutUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		4043956823B0B8FF00448811 /* PortfolioCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortfolioCollectionViewController.h; sourceTree = "<group>"; };
+		4043956923B0B8FF00448811 /* PortfolioCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioCollectionViewController.m; sourceTree = "<group>"; };
+		4043956B23B0B97500448811 /* PortfolioCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortfolioCollectionViewCell.h; sourceTree = "<group>"; };
+		4043956C23B0B97500448811 /* PortfolioCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortfolioCollectionViewCell.m; sourceTree = "<group>"; };
+		4043956F23B0C69900448811 /* ContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		4043957023B0C69900448811 /* ContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		4043957323B0C76000448811 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4043957523B0CA7800448811 /* MapPin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		4043957623B0CA7800448811 /* MapPin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
+		4055923F23B9CCF5006DD6E3 /* EmailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
+		4055924023B9CCF5006DD6E3 /* EmailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
+		4055924223B9D390006DD6E3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		4055924423B9D3C0006DD6E3 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		4055924723B9EB35006DD6E3 /* SocialTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialTableViewController.h; sourceTree = "<group>"; };
+		4055924823B9EB35006DD6E3 /* SocialTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialTableViewController.m; sourceTree = "<group>"; };
+		4055924A23B9EBEB006DD6E3 /* SocialTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialTableViewCell.h; sourceTree = "<group>"; };
+		4055924B23B9EBEB006DD6E3 /* SocialTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialTableViewCell.m; sourceTree = "<group>"; };
+		4055924D23B9EC5E006DD6E3 /* Social.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Social.plist; sourceTree = "<group>"; };
+		40BBFD7323BB56A700F9468E /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		40BBFD7423BB56A700F9468E /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		40BBFD7623BB57DA00F9468E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		40C6449923A7AA3200DAC09E /* TabBarBusiness_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarBusiness_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C6449C23A7AA3200DAC09E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		40C6449D23A7AA3200DAC09E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +115,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40BBFD7723BB57DA00F9468E /* WebKit.framework in Frameworks */,
+				4055924523B9D3C0006DD6E3 /* Accounts.framework in Frameworks */,
+				4055924323B9D390006DD6E3 /* MessageUI.framework in Frameworks */,
+				4043957423B0C76000448811 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +139,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4043954A23B0906300448811 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4043954B23B0909900448811 /* ServicesTableViewController.h */,
+				4043954C23B0909900448811 /* ServicesTableViewController.m */,
+				4043955123B090DA00448811 /* ServicesViewController.h */,
+				4043955223B090DA00448811 /* ServicesViewController.m */,
+				4043955423B0915800448811 /* ServicesList.plist */,
+				4043955623B0978E00448811 /* ServicesTableViewCell.h */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4043956323B0B5DC00448811 /* About Us */ = {
+			isa = PBXGroup;
+			children = (
+				4043956423B0B5FB00448811 /* AboutUsViewController.h */,
+				4043956523B0B5FB00448811 /* AboutUsViewController.m */,
+			);
+			path = "About Us";
+			sourceTree = "<group>";
+		};
+		4043956723B0B8DB00448811 /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				4043956823B0B8FF00448811 /* PortfolioCollectionViewController.h */,
+				4043956923B0B8FF00448811 /* PortfolioCollectionViewController.m */,
+				4043956B23B0B97500448811 /* PortfolioCollectionViewCell.h */,
+				4043956C23B0B97500448811 /* PortfolioCollectionViewCell.m */,
+			);
+			path = Portfolio;
+			sourceTree = "<group>";
+		};
+		4043956E23B0C68400448811 /* Contact Us */ = {
+			isa = PBXGroup;
+			children = (
+				4043956F23B0C69900448811 /* ContactViewController.h */,
+				4043957023B0C69900448811 /* ContactViewController.m */,
+				4043957523B0CA7800448811 /* MapPin.h */,
+				4043957623B0CA7800448811 /* MapPin.m */,
+				4055923F23B9CCF5006DD6E3 /* EmailViewController.h */,
+				4055924023B9CCF5006DD6E3 /* EmailViewController.m */,
+			);
+			path = "Contact Us";
+			sourceTree = "<group>";
+		};
+		4043957223B0C75F00448811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40BBFD7623BB57DA00F9468E /* WebKit.framework */,
+				4055924423B9D3C0006DD6E3 /* Accounts.framework */,
+				4055924223B9D390006DD6E3 /* MessageUI.framework */,
+				4043957323B0C76000448811 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4055924623B9EB07006DD6E3 /* SocialLinks */ = {
+			isa = PBXGroup;
+			children = (
+				4055924723B9EB35006DD6E3 /* SocialTableViewController.h */,
+				4055924823B9EB35006DD6E3 /* SocialTableViewController.m */,
+				4055924A23B9EBEB006DD6E3 /* SocialTableViewCell.h */,
+				4055924B23B9EBEB006DD6E3 /* SocialTableViewCell.m */,
+				4055924D23B9EC5E006DD6E3 /* Social.plist */,
+				40BBFD7323BB56A700F9468E /* WebViewController.h */,
+				40BBFD7423BB56A700F9468E /* WebViewController.m */,
+			);
+			path = SocialLinks;
+			sourceTree = "<group>";
+		};
 		40C6449023A7AA3100DAC09E = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +217,7 @@
 				40C644B723A7AA3400DAC09E /* TabBarBusiness_ObjCTests */,
 				40C644C223A7AA3400DAC09E /* TabBarBusiness_ObjCUITests */,
 				40C6449A23A7AA3200DAC09E /* Products */,
+				4043957223B0C75F00448811 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +234,11 @@
 		40C6449B23A7AA3200DAC09E /* TabBarBusiness_ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				4055924623B9EB07006DD6E3 /* SocialLinks */,
+				4043956E23B0C68400448811 /* Contact Us */,
+				4043956723B0B8DB00448811 /* Portfolio */,
+				4043956323B0B5DC00448811 /* About Us */,
+				4043954A23B0906300448811 /* Services */,
 				40C6449C23A7AA3200DAC09E /* AppDelegate.h */,
 				40C6449D23A7AA3200DAC09E /* AppDelegate.m */,
 				40C6449F23A7AA3200DAC09E /* SceneDelegate.h */,
@@ -240,6 +375,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4055924E23B9EC5E006DD6E3 /* Social.plist in Resources */,
+				4043955D23B098DF00448811 /* ServicesTableViewController.h in Resources */,
+				4043955E23B098DF00448811 /* ServicesTableViewController.m in Resources */,
+				4043955F23B098DF00448811 /* ServicesViewController.h in Resources */,
+				4043956023B098DF00448811 /* ServicesViewController.m in Resources */,
+				4043956123B098DF00448811 /* ServicesTableViewCell.h in Resources */,
 				40C644AC23A7AA3400DAC09E /* LaunchScreen.storyboard in Resources */,
 				40C644A923A7AA3400DAC09E /* Assets.xcassets in Resources */,
 				40C644A723A7AA3200DAC09E /* Main.storyboard in Resources */,
@@ -267,7 +408,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4055924923B9EB35006DD6E3 /* SocialTableViewController.m in Sources */,
+				4043955A23B098B000448811 /* ServicesTableViewController.h in Sources */,
+				40BBFD7523BB56A700F9468E /* WebViewController.m in Sources */,
+				4043955B23B098B000448811 /* ServicesViewController.h in Sources */,
+				4043955C23B098B000448811 /* ServicesList.plist in Sources */,
+				4043955923B098A800448811 /* ServicesTableViewCell.h in Sources */,
+				4043955323B090DA00448811 /* ServicesViewController.m in Sources */,
+				4043954D23B0909900448811 /* ServicesTableViewController.m in Sources */,
+				4043957723B0CA7800448811 /* MapPin.m in Sources */,
+				4055924123B9CCF5006DD6E3 /* EmailViewController.m in Sources */,
 				40C644A423A7AA3200DAC09E /* ViewController.m in Sources */,
+				4055924C23B9EBEB006DD6E3 /* SocialTableViewCell.m in Sources */,
+				4043957123B0C69900448811 /* ContactViewController.m in Sources */,
+				4043956D23B0B97500448811 /* PortfolioCollectionViewCell.m in Sources */,
+				4043956A23B0B8FF00448811 /* PortfolioCollectionViewController.m in Sources */,
+				4043956623B0B5FB00448811 /* AboutUsViewController.m in Sources */,
 				40C6449E23A7AA3200DAC09E /* AppDelegate.m in Sources */,
 				40C644AF23A7AA3400DAC09E /* main.m in Sources */,
 				40C644A123A7AA3200DAC09E /* SceneDelegate.m in Sources */,
